@@ -1,0 +1,33 @@
+{
+  "name": "@saurabharch/rollout-chatbot-util",
+  "version": "0.8.36",
+  "description": "This Library implements Rollout Microlanguage",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabharch/rollout-nodejs-libs.git"
+  },
+  "keywords": [
+    "rollout",
+    "chatbot",
+    "client",
+    "livechat",
+    "live",
+    "chat",
+    "support",
+    "helpdesk",
+    "chatbot-microlanguage"
+  ],
+  "author": "Andrea Sponziello",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saurabharch/rollout-nodejs-libs/issues"
+  },
+  "homepage": "https://github.com/saurabharch/rollout-nodejs-libs#readme",
+  "dependencies": {
+    "mocha": "^8.2.1"
+  }
+}

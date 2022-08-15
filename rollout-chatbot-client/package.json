@@ -1,0 +1,32 @@
+{
+  "name": "@saurabharch/rollout-chatbot-client",
+  "version": "0.5.30",
+  "description": "Client library to use Rollout Request APIs from a chatbot NodeJS proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabharch/rollout-nodejs-libs.git"
+  },
+  "keywords": [
+    "rollout",
+    "chatbot",
+    "client",
+    "livechat",
+    "live",
+    "chat",
+    "support",
+    "helpdesk"
+  ],
+  "author": "Saurabh Kashyap",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saurabharch/rollout-nodejs-libs/issues"
+  },
+  "homepage": "https://github.com/saurabharch/rollout-nodejs-libs#readme",
+  "dependencies": {
+    "@saurabharch/rollout-client": "^0.8.5"
+  }
+}
