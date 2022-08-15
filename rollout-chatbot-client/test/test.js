@@ -1,9 +1,9 @@
 var assert = require('assert');
-const { TiledeskChatbotClient } = require('..');
-const { TiledeskClient } = require('@tiledesk/tiledesk-client');
+const { RolloutChatbotClient } = require('..');
+const { RolloutClient } = require('@saurabharch/rollout-client');
 
 const APIKEY = "__APIKEY__";
-const API_ENDPOINT = "https://tiledesk-server-pre.herokuapp.com"; //TiledeskClient.DEFAULT_API_ENDPOINT;
+const API_ENDPOINT = "https://rollout-server-pre.herokuapp.com"; //RolloutClient.DEFAULT_API_ENDPOINT;
 const LOG_STATUS = false;
 const WEBHOOK_REQUEST_BODY = {
 	"timestamp": 1616144169190,
@@ -62,19 +62,19 @@ const WEBHOOK_REQUEST_BODY = {
 				"status": 100,
 				"lead_id": "b930fcb0-e2b4-4677-b2a3-0712cfd08033",
 				"fullname": "Andrea",
-				"email": "andreasponziello@tiledesk.com",
+				"email": "saurabh@rollout.com",
 				"attributes": {
 					"departmentId": "5fc4c150f2fc4d0034b96e52",
 					"departmentName": "Default Department",
 					"ipAddress": "151.46.166.44",
 					"client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36",
-					"sourcePage": "https://widget-pre.tiledesk.com/v5/assets/twp/index.html?tiledesk_projectid=5fc4c150f2fc4d0034b96e50&project_name=Microlang%20Dialogflow%20test%20-%20PRE&isOpen=true",
+					"sourcePage": "https://widget-pre.rollout.com/v5/assets/twp/index.html?tiledesk_projectid=5fc4c150f2fc4d0034b96e50&project_name=Microlang%20Dialogflow%20test%20-%20PRE&isOpen=true",
 					"projectId": "5fc4c150f2fc4d0034b96e50",
 					"requester_id": "b930fcb0-e2b4-4677-b2a3-0712cfd08033",
 					"payload": [],
 					"privacyApproved": false,
 					"userFullname": "Andrea",
-					"userEmail": "andreasponziello@tiledesk.com",
+					"userEmail": "saurabh@rollout.com",
 					"subtype": "info"
 				},
 				"id_project": "5fc4c150f2fc4d0034b96e50",
@@ -109,7 +109,7 @@ const WEBHOOK_REQUEST_BODY = {
 					"createdAt": "2020-11-30T09:55:31.698Z",
 					"updatedAt": "2020-11-30T10:09:21.080Z",
 					"__v": 0,
-					"url": "https://tiledesk-df-connector-pre.herokuapp.com/tdbot/"
+					"url": "https://rollout-df-connector-pre.herokuapp.com/tdbot/"
 				}
 			},
 			"agents": [{
@@ -176,7 +176,7 @@ const WEBHOOK_REQUEST_BODY = {
 					"changedAt": "2021-03-17T14:25:33.791Z"
 				}
 			}],
-			"sourcePage": "https://widget-pre.tiledesk.com/v5/assets/twp/index.html?tiledesk_projectid=5fc4c150f2fc4d0034b96e50&project_name=Dialogflow%20Connector%20test%20-%20PRE&isOpen=true",
+			"sourcePage": "https://widget-pre.rollout.com/v5/assets/twp/index.html?tiledesk_projectid=5fc4c150f2fc4d0034b96e50&project_name=Dialogflow%20Connector%20test%20-%20PRE&isOpen=true",
 			"language": "it",
 			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
 			"attributes": {
@@ -184,13 +184,13 @@ const WEBHOOK_REQUEST_BODY = {
 				"departmentName": "Default Department",
 				"ipAddress": "151.43.150.222",
 				"client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
-				"sourcePage": "https://widget-pre.tiledesk.com/v5/assets/twp/index.html?tiledesk_projectid=5fc4c150f2fc4d0034b96e50&project_name=Dialogflow%20Connector%20test%20-%20PRE&isOpen=true",
+				"sourcePage": "https://widget-pre.rollout.com/v5/assets/twp/index.html?tiledesk_projectid=5fc4c150f2fc4d0034b96e50&project_name=Dialogflow%20Connector%20test%20-%20PRE&isOpen=true",
 				"projectId": "5fc4c150f2fc4d0034b96e50",
 				"requester_id": "b930fcb0-e2b4-4677-b2a3-0712cfd08033",
 				"payload": [],
 				"privacyApproved": false,
 				"userFullname": "Andrea",
-				"userEmail": "andreasponziello@tiledesk.com",
+				"userEmail": "saurabh@rollout.com",
 				"subtype": "info"
 			},
 			"id_project": "5fc4c150f2fc4d0034b96e50",
@@ -300,19 +300,19 @@ const WEBHOOK_REQUEST_BODY = {
 					"_id": "6045ee819c259c0034e099eb",
 					"lead_id": "b930fcb0-e2b4-4677-b2a3-0712cfd08033",
 					"fullname": "Andrea",
-					"email": "andreasponziello@tiledesk.com",
+					"email": "saurabh@rollout.com",
 					"attributes": {
 						"departmentId": "5fc4c150f2fc4d0034b96e52",
 						"departmentName": "Default Department",
 						"ipAddress": "151.46.166.44",
 						"client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36",
-						"sourcePage": "https://widget-pre.tiledesk.com/v5/assets/twp/index.html?tiledesk_projectid=5fc4c150f2fc4d0034b96e50&project_name=Microlang%20Dialogflow%20test%20-%20PRE&isOpen=true",
+						"sourcePage": "https://widget-pre.rollout.com/v5/assets/twp/index.html?tiledesk_projectid=5fc4c150f2fc4d0034b96e50&project_name=Microlang%20Dialogflow%20test%20-%20PRE&isOpen=true",
 						"projectId": "5fc4c150f2fc4d0034b96e50",
 						"requester_id": "b930fcb0-e2b4-4677-b2a3-0712cfd08033",
 						"payload": [],
 						"privacyApproved": false,
 						"userFullname": "Andrea",
-						"userEmail": "andreasponziello@tiledesk.com",
+						"userEmail": "saurabh@rollout.com",
 						"subtype": "info"
 					},
 					"id_project": "5fc4c150f2fc4d0034b96e50",
@@ -351,7 +351,7 @@ const WEBHOOK_REQUEST_BODY = {
 				"createdAt": "2020-11-30T09:55:31.698Z",
 				"updatedAt": "2020-11-30T10:09:21.080Z",
 				"__v": 0,
-				"url": "https://tiledesk-df-connector-pre.herokuapp.com/tdbot/"
+				"url": "https://rollout-df-connector-pre.herokuapp.com/tdbot/"
 			}]
 		}
 	},
@@ -366,7 +366,7 @@ const WEBHOOK_REQUEST_BODY = {
 		"createdAt": "2020-11-30T09:55:31.698Z",
 		"updatedAt": "2020-11-30T10:09:21.080Z",
 		"__v": 0,
-		"url": "https://tiledesk-df-connector-pre.herokuapp.com/tdbot/"
+		"url": "https://rollout-df-connector-pre.herokuapp.com/tdbot/"
 	},
 	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3ZWJob29rX2VuYWJsZWQiOmZhbHNlLCJ0eXBlIjoiZGlhbG9nZmxvdyIsIl9pZCI6IjVmYzRjMTkzZjJmYzRkMDAzNGI5NmU3MCIsIm5hbWUiOiJUZWNoeSIsImlkX3Byb2plY3QiOiI1ZmM0YzE1MGYyZmM0ZDAwMzRiOTZlNTAiLCJ0cmFzaGVkIjpmYWxzZSwiY3JlYXRlZEJ5IjoiNWUwOWQxNmQ0ZDM2MTEwMDE3NTA2ZDdmIiwiY3JlYXRlZEF0IjoiMjAyMC0xMS0zMFQwOTo1NTozMS42OThaIiwidXBkYXRlZEF0IjoiMjAyMC0xMS0zMFQxMDowOToyMS4wODBaIiwiX192IjowLCJ1cmwiOiJodHRwczovL3RpbGVkZXNrLWRmLWNvbm5lY3Rvci1wcmUuaGVyb2t1YXBwLmNvbS90ZGJvdC8iLCJpYXQiOjE2MTYxNDQxNjksImF1ZCI6Imh0dHBzOi8vdGlsZWRlc2suY29tL2JvdHMvNWZjNGMxOTNmMmZjNGQwMDM0Yjk2ZTcwIiwiaXNzIjoiaHR0cHM6Ly90aWxlZGVzay5jb20iLCJzdWIiOiJib3QiLCJqdGkiOiJlNjE2MWQ0Yy03MWJmLTQxNDctODAwOC1lZmRjYzFhNzBkMDgifQ.fwqw0tcEAtwP_Ev4ozLl6oP8ShPOdfhkAwT-VpYG7Vs"
 };
@@ -375,10 +375,10 @@ const WEBHOOK_REQUEST = {
   body: WEBHOOK_REQUEST_BODY
 };
 
-describe('TiledeskChatbotClient', function() {
+describe('RolloutChatbotClient', function() {
     describe('init()', function() {
-      it('should return a new TiledeskChatbotClient', function() {
-          const cbclient = new TiledeskChatbotClient({
+      it('should return a new RolloutChatbotClient', function() {
+          const cbclient = new RolloutChatbotClient({
               APIKEY: APIKEY,
               APIURL: API_ENDPOINT,
               requestId: "support-group-...",
@@ -399,10 +399,10 @@ describe('TiledeskChatbotClient', function() {
     });
 });
 
-describe('TiledeskChatbotClient', function() {
+describe('RolloutChatbotClient', function() {
   describe('init() with webhook request', function() {
-    it('should return a new TiledeskChatbotClient', function() {
-        const cbclient = new TiledeskChatbotClient({
+    it('should return a new RolloutChatbotClient', function() {
+        const cbclient = new RolloutChatbotClient({
           APIKEY: APIKEY,
           APIURL: API_ENDPOINT,
           request: WEBHOOK_REQUEST,
@@ -414,7 +414,7 @@ describe('TiledeskChatbotClient', function() {
           assert(cbclient.tiledeskClient.APIKEY === APIKEY);
           assert(cbclient.tiledeskClient.APIURL === cbclient.APIURL);
           assert(cbclient.tiledeskClient.projectId === WEBHOOK_REQUEST.body.payload.id_project);
-          assert(cbclient.tiledeskClient.jwt_token === TiledeskClient.fixToken(WEBHOOK_REQUEST.body.token));
+          assert(cbclient.tiledeskClient.jwt_token === RolloutClient.fixToken(WEBHOOK_REQUEST.body.token));
           assert(cbclient.supportRequest != null);
           assert(cbclient.tiledeskClient.log === LOG_STATUS);
           // chatbot object
@@ -427,10 +427,10 @@ describe('TiledeskChatbotClient', function() {
   });
 });
 
-describe('TiledeskClient', function() {
+describe('RolloutClient', function() {
   describe('sendMessage()', function() {
       it('sends a message to the chatbot request conversation', function(done) {
-        const cbclient = new TiledeskChatbotClient({
+        const cbclient = new RolloutChatbotClient({
           APIKEY: APIKEY,
           APIURL: API_ENDPOINT,
           request: WEBHOOK_REQUEST,
@@ -441,7 +441,7 @@ describe('TiledeskClient', function() {
         assert(cbclient.tiledeskClient.APIKEY === APIKEY);
         assert(cbclient.tiledeskClient.APIURL === cbclient.APIURL);
         assert(cbclient.tiledeskClient.projectId === WEBHOOK_REQUEST.body.payload.id_project);
-        assert(cbclient.tiledeskClient.jwt_token === TiledeskClient.fixToken(WEBHOOK_REQUEST.body.token));
+        assert(cbclient.tiledeskClient.jwt_token === RolloutClient.fixToken(WEBHOOK_REQUEST.body.token));
         assert(cbclient.supportRequest != null);
         assert(cbclient.tiledeskClient.log === LOG_STATUS);
         const text_value = 'test message';
