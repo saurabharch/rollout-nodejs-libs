@@ -46,7 +46,7 @@ class RolloutChatbotClient {
     this.request_ = options.request;
 
     if (options.APIURL) {
-      this.APIURL = options.APIURL
+      this.APIURL = options.APIURL;
     }
     else {
       this.APIURL = "https://api.rollout.com/v2";

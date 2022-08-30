@@ -1,6 +1,6 @@
 {
   "name": "@saurabharch/rollout-chatbot-util",
-  "version": "0.8.36",
+  "version": "0.8.37",
   "description": "This Library implements Rollout Microlanguage",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "helpdesk",
     "chatbot-microlanguage"
   ],
-  "author": "Andrea Sponziello",
+  "author": "Saurabh Kashyap",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/saurabharch/rollout-nodejs-libs/issues"

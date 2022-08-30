@@ -1,0 +1,39 @@
+{
+    "name": "@saurabharch/helpcenter-query-client",
+    "version": "0.1.5",
+    "description": "Javascript SDK for Rollout HelpCenter query REST APIs",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha --timeout 10000 --exit"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/saurabharch/rollout-nodejs-libs.git"
+    },
+    "keywords": [
+        "rollout",
+        "chatbot",
+        "client",
+        "livechat",
+        "nodejs",
+        "node",
+        "live",
+        "chat",
+        "support",
+        "helpdesk"
+    ],
+    "author": "Saurabh Kashyap",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/saurabharch/rollout-nodejs-libs/issues"
+    },
+    "homepage": "https://github.com/saurabharch/rollout-nodejs-libs#readme",
+    "devDependencies": {
+        "jsonwebtoken": "^8.5.1",
+        "mocha": "^8.2.1"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "dotenv": "^10.0.0"
+    }
+}

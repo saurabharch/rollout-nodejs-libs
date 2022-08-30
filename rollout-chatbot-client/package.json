@@ -1,6 +1,6 @@
 {
   "name": "@saurabharch/rollout-chatbot-client",
-  "version": "0.5.30",
+  "version": "0.5.31",
   "description": "Client library to use Rollout Request APIs from a chatbot NodeJS proxy",
   "main": "index.js",
   "scripts": {

@@ -16,6 +16,6 @@
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Saurabh Kashyap",
   "license": "ISC"
 }

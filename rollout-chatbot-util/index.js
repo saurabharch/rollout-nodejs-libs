@@ -204,14 +204,14 @@ static is_agent_handoff_command(msg) {
           console.log("it is a separator:", part)
           let separator = part.trim();
           // split command
-          var wait_time = separator.length * 500
-          var command = {}
+          var wait_time = separator.length * 500;
+          var command = {};
           command.type = this.COMMAND_TYPE_WAIT;
           command.time = wait_time; //parseInt(wait_time, 10)
-          commands.push(command)
+          commands.push(command);
         }
         else if (part.trim() !== "") {
-          console.log("it is not a separator:", part)
+          console.log("it is not a separator:", part);
           // message command
           var command = {};
           command.type = this.COMMAND_TYPE_MESSAGE;
@@ -252,10 +252,10 @@ static is_agent_handoff_command(msg) {
           let separator = part.trim();
           // split command
           var wait_time = RolloutChatbotUtil.WAIT_TIME;
-          var command = {}
+          var command = {};
           command.type = this.COMMAND_TYPE_WAIT;
           command.time = wait_time;
-          commands.push(command)
+          commands.push(command);
         }
         else if (part.trim() !== "") {
           // console.log("it is not a separator:", part)
@@ -638,7 +638,7 @@ static is_agent_handoff_command(msg) {
     return {
       text: text,
       reply: reply
-    }
+    };
   }
 
   // renders a video in as iframe in the widget.

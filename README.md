@@ -5,4 +5,3 @@ In this project we maintain three libraries but only RolloutClient is ready for 
 
 ## Rollout Client
 [See here](https://github.com/saurabharch/rollout-nodejs-libs/blob/master/rollout-client/README.md)
-
