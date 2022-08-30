@@ -30,11 +30,11 @@
   "homepage": "https://github.com/saurabharch/rollout-nodejs-libs#readme",
   "devDependencies": {
     "jsonwebtoken": "^8.5.1",
-    "mocha": "^8.2.1"
+    "mocha": "^10.0.0"
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "dotenv": "^10.0.0",
+    "dotenv": "^16.0.0",
     "uuid": "^8.3.2"
   }
 }
