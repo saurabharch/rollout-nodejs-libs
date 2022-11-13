@@ -28,6 +28,6 @@
   },
   "homepage": "https://github.com/saurabharch/rollout-nodejs-libs#readme",
   "dependencies": {
-    "mocha": "^8.2.1"
+    "mocha": "^10.1.0"
   }
 }
